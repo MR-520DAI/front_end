@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>function</title>
+</head>
+<body>
+  <script>
+    function hello() {
+      console.log("hello world");
+      
+    }
+    hello();
+
+    function hello_return() {
+      return "hello world return";
+    
+    }
+    let hello_value = hello_return();
+    console.log(hello_value);
+
+    function hello_param(name) {
+      return "hello " + name;
+    }
+    let hello_param_value = hello_param("会飞的鱼");
+    console.log(hello_param_value);
+  </script>
+  
+</body>
+</html>

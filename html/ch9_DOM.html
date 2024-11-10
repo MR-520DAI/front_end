@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="box1">ID选择器标签</div>
+  <div class="class1">类选择器标签</div>
+
+  <script>
+    // 通过document.getElementById获取节点
+    var element_id = document.getElementById("box1");
+    console.log(element_id);
+
+    var element_class = document.getElementsByClassName("class1");
+    console.log(element_class);
+
+    element_id.innerHTML = "修改id后的内容";
+    element_class[0].innerHTML = "修改class后的内容";
+  </script>
+</body>
+</html>
